@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: hotpink;
+  margin-top: 20px;
+}
+
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: hotpink;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.content {
+  margin: 20px auto;
+  width: 80%;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.tagline {
+  font-weight: bold;
+  color: hotpink;
+  font-size: 20px;
+}
+
+.btn {
+  display: block;
+  width: 80%;
+  margin: 8px auto;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: hotpink;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background: #eee;
+  font-weight: bold;
+  color: red;
+}
